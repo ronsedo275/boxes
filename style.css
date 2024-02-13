@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #F0F0F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+    color: #323333;
+}
+
+.grid{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 40px;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.box1{
+    background: linear-gradient( #FEDBBF, #FED1C0);
+    box-shadow: 0 18px 40px -12px #FEDBBF;
+}
+
+.box2{
+    background: linear-gradient( #A0F5CF, #9FF5CE);
+    box-shadow: 0 18px 40px -12px #A0F5CF;
+}
+
+.box3{
+    background: linear-gradient( #F6ADE3, #F0C3F8);
+    box-shadow: 0 18px 40px -12px #F6ADE3;
+}
+
+.box4{
+    background: linear-gradient( #E3C1FF, #D5B7FF);
+    box-shadow: 0 18px 40px -12px #E3C1FF;
+}
+
+.box5{
+    background: linear-gradient( #A6E2F9, #BAD9E9);
+    box-shadow: 0 18px 40px -12px #A6E2F9;
+}
+
+.box6{
+    background: linear-gradient( #FEC1C1, #FBC5C6);
+    box-shadow: 0 18px 40px -12px #FEC1C1;
+}
+.grid-bottom p{
+    color: white;
+    background-color: #323333;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 99rem;
+}
+
+.grid-bottom{
+    display: flex;
+    gap: 1rem;
+    width: 17rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 99rem;
+}
+
+.grid-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
